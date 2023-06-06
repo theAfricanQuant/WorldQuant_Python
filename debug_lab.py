@@ -8,8 +8,7 @@ Created on Wed May  9 16:22:14 2018
 import math
 
 def square(x):
-    ans = x**2
-    return ans
+    return x**2
     
 
 def get_simple_interest():
@@ -25,10 +24,7 @@ def get_simple_interest():
     
 
 def compound_interest(p, r, t):
-    #A = Pe^(rt)
-    #where: P = principal, r=rate, t=time
-    result = p * math.exp(r * t)
-    return result 
+    return p * math.exp(r * t) 
 
 
 def get_car_payment():
